@@ -16,9 +16,9 @@ Use `npm start` to start the development server on [http://localhost:3000](http:
 
 ## Implementation
 
-- The homepage should include a list of characters (the first page of characters in the `/people/` response from the API is sufficient).
-- Each character should then have their own profile page where you can see their bio and links to their home planet and starship pages.
-- Linked planets and starships should also have a 'bio' page.
-- Loading states should be taken into account.
-- The data you choose to display on each screen is up to you.
-- Handling errors with correct messages when/if the API call fails would be appreciated.
+- The homepage includes a list of characters (the first page of characters in the `/people/` response from the API).
+- Each character has their own profile page where you can see their bio and links to their home planet and starship pages.
+- Linked planets and starships also have a 'bio' page.
+- Loading states are taken into account.
+- Errors are handled with correct messages when the API call fails.
+- Thoroughly tested using chai, enzyme and sinon.
