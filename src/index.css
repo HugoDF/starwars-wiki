@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #666;
+  background-color: #FDFDFD;
+}
+
+a {
+  color: #6C5DD7;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active, a.active {
+  color: #0061FF;
+  border-bottom: solid 1px;
+}

@@ -1,0 +1,9 @@
+.Planet {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.resident-list {
+  text-align: left;
+  display: inline-block;
+}

@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.App-nav {
+  background-color: #A4A4A4;
+  padding: 20px;
+  color: #FDFDFD;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-link, .nav-link:visited {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.App-body {
+  padding-top: 150px;
+}
+
+.card-container {
+  max-width: 1024px;
+  margin: auto;
+  columns: 240px;
+}

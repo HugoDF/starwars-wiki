@@ -1,0 +1,21 @@
+.CharacterCard {
+  width: 200px;
+  padding: 20px;
+  margin: auto;
+  background-color: #6C5DD7;
+  color: #FDFDFD;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+h3 {
+  min-height: 4rem;
+  margin: 0;
+  float: left;
+  width: 90%;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  text-align: left;
+  cursor: pointer
+}
