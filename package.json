@@ -2,6 +2,7 @@
   "name": "starwars-wiki",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://hugodf.xyz/starwars-wiki",
   "devDependencies": {
     "chai": "^3.5.0",
     "enzyme": "^2.7.1",
