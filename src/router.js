@@ -3,7 +3,7 @@ import {
   Router,
   IndexRoute,
   Route,
-  browserHistory
+  hashHistory as history
 } from 'react-router';
 
 import App from './components/App';
@@ -15,7 +15,7 @@ import Starship from './components/Starship';
 import Vehicle from './components/Vehicle';
 
 export default (
-  <Router history={browserHistory}>
+  <Router history={history}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="/character" component={Character} />
